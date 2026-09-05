@@ -1,5 +1,5 @@
 
-cars = ["Ford", "Volvo", "BMW","Ferrari","Lambroghini","Honda"]
+cars = ["Ford", "Volvo", "BMW","Ferrari","Honda"]
 
 maxlen = 0
 longest = ""
