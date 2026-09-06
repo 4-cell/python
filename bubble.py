@@ -2,10 +2,11 @@ a = [3, 2, 5, 1, 8, 4, 7, 6, 9, 12, 15, 11, 14, 10, 13, 18, 16, 20, 17, 19, 22, 
 
 for i in range(len(a)):
     place = 0
-    for j in range(len(a)-1):
+    for j in range(len(a)-1-i):
         if a[j] > a[j + 1]:
             place = a[j]
             a[j] = a[j + 1]
             a[j + 1] = place
+
 
 print(a)
